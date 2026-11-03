@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-11-03 05:54:16",
+  "pages": {
+    "Market Overview": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 3,
+      "dataframes_rendered": 0,
+      "error_banners": [],
+      "screenshot": "01_market_overview_1440px.png",
+      "status": "PASS"
+    },
+    "Startup Explorer": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 0,
+      "dataframes_rendered": 1,
+      "error_banners": [],
+      "screenshot": "02_startup_explorer_1440px.png",
+      "status": "PASS"
+    },
+    "Sector Intelligence": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 2,
+      "dataframes_rendered": 2,
+      "error_banners": [],
+      "screenshot": "03_sector_intelligence_1440px.png",
+      "status": "PASS"
+    },
+    "City Intelligence": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 1,
+      "dataframes_rendered": 1,
+      "error_banners": [],
+      "screenshot": "04_city_intelligence_1440px.png",
+      "status": "PASS"
+    },
+    "Funding Rounds": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 2,
+      "dataframes_rendered": 1,
+      "error_banners": [],
+      "screenshot": "05_funding_rounds_1440px.png",
+      "status": "PASS"
+    },
+    "Funding Distribution": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 4,
+      "dataframes_rendered": 2,
+      "error_banners": [],
+      "screenshot": "06_funding_distribution_1440px.png",
+      "status": "PASS"
+    },
+    "Time & Era Analysis": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 5,
+      "dataframes_rendered": 1,
+      "error_banners": [],
+      "screenshot": "07_time_and_era_analysis_1440px.png",
+      "status": "PASS"
+    },
+    "Feature Engineering Lab": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 0,
+      "dataframes_rendered": 2,
+      "error_banners": [],
+      "screenshot": "08_feature_engineering_lab_1440px.png",
+      "status": "PASS"
+    },
+    "Data Laboratory": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 0,
+      "dataframes_rendered": 2,
+      "error_banners": [],
+      "screenshot": "09_data_laboratory_1440px.png",
+      "status": "PASS"
+    },
+    "Insights & Reports": {
+      "navigation_success": true,
+      "raw_html_leaks": [],
+      "charts_rendered": 0,
+      "dataframes_rendered": 4,
+      "error_banners": [],
+      "screenshot": "10_insights_and_reports_1440px.png",
+      "status": "PASS"
+    }
+  },
+  "interactions": {
+    "startup_search": {
+      "tested_term": "Swiggy",
+      "match_found": true,
+      "screenshot": "interaction_search_swiggy.png",
+      "status": "PASS"
+    },
+    "city_filter": {
+      "tested_city": "Bengaluru",
+      "screenshot": "interaction_filter_bengaluru.png",
+      "status": "PASS"
+    }
+  },
+  "responsive": {
+    "1280px": {
+      "viewport": "1280x800",
+      "screenshot": "responsive_1280px_market_overview.png",
+      "status": "PASS"
+    },
+    "1024px": {
+      "viewport": "1024x768",
+      "screenshot": "responsive_1024px_market_overview.png",
+      "status": "PASS"
+    }
+  },
+  "downloads": {
+    "pdf_export": {
+      "status": "PASS",
+      "files": [
+        "VentureTrack_Executive_Briefing.pdf"
+      ]
+    },
+    "csv_export": {
+      "status": "PASS",
+      "files": [
+        "venturetrack_dataset_filtered.csv"
+      ]
+    }
+  },
+  "app_container_bg_color": "rgb(247, 248, 246)"
+}

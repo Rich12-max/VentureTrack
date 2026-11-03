@@ -1,0 +1,22 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Streamlit runtime
+.streamlit/secrets.toml
+
+# macOS files
+.DS_Store
+
+# Temporary artifacts
+/tmp/
+
